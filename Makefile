@@ -6,3 +6,6 @@ run:
 
 down:
 	@sh ./scripts/sh/command_exist.sh && zx ./scripts/mjs/down.mjs
+
+ngrok:
+	@sh ./scripts/sh/command_exist.sh && ngrok http 8080
